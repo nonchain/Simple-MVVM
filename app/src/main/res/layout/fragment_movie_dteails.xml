@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <data>
+        <variable
+            name="DetailMovie"
+            type="com.example.jmm.model.DetailsMoviesList" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment.MovieDteailsFragment"
+        android:orientation="vertical"
+        android:layoutDirection="rtl">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:ImageView="@{DetailMovie.link_img}"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="24dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/estedad_bold"
+            android:text="@{DetailMovie.name, default=اسم_فیلم}"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:layout_marginRight="24dp"
+                android:textSize="13sp"
+                android:textColor="#656765"
+                android:fontFamily="@font/estedad_medium"
+                android:text="ژانر : "/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-8dp"
+            android:textSize="14sp"
+            android:textColor="#2343df"
+            android:fontFamily="@font/estedad_semi_bold"
+            android:text="@{DetailMovie.gnere, default=ژانر}"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="24dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/estedad_bold"
+            android:text="خلاصه فیلم"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="32dp"
+            android:textSize="12sp"
+            android:textColor="#656765"
+            android:fontFamily="@font/estedad_medium"
+            android:text="@{DetailMovie.description, default=Loremipsumisaplaceholdertextcommonlyusedtodemonstratethe}"/>
+
+
+    </LinearLayout>
+</layout>
