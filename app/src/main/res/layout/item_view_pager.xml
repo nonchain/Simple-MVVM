@@ -15,8 +15,8 @@
         android:gravity="center">
 
         <ImageView
-            android:layout_width="250dp"
-            android:layout_height="250dp"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
             android:scaleType="centerCrop"
             app:Link_Img="@{SliderData.link_img}"/>
 
