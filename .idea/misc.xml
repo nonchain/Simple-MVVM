@@ -11,13 +11,15 @@
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/activity_part05_navigation.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/activity_part06_movie_navigation.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/activity_part06_movie_navigation2.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/activity_part07_view_pager.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/fragment_detail_movie.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/fragment_details.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/fragment_movie.xml" value="0.25416666666666665" />
-        <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/fragment_movie_dteails.xml" value="0.4" />
+        <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/fragment_movie_dteails.xml" value="0.2" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/item_movies.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/item_part02_rec_view.xml" value="0.2" />
+        <entry key="..\:/AndroidProject/Jmm/app/src/main/res/layout/item_view_pager.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidProject/Jmm/app/src/main/res/xml/network_security_config.xml" value="0.1265625" />
       </map>
     </option>
