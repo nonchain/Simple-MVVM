@@ -6,12 +6,12 @@ import androidx.databinding.BindingAdapter;
 
 import com.squareup.picasso.Picasso;
 
-public class ViewPagerModel {
+public class ViewPagerList {
     String name, link_img;
 
-    public ViewPagerModel(){}
+    public ViewPagerList(){}
 
-    public ViewPagerModel(String name, String link_img) {
+    public ViewPagerList(String name, String link_img) {
         this.name = name;
         this.link_img = link_img;
     }

@@ -23,16 +23,15 @@
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize">
-
-
-
-        </com.google.android.material.tabs.TabLayout>
+            android:layout_height="?attr/actionBarSize"
+            app:SET_TABLAYOUT="@{viewPager}"/>
 
         <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/tab_layout"/>
+            android:layout_below="@+id/tab_layout"
+            app:SET_VIEWPAGER="@{ViewPagerData}"/>
 
     </RelativeLayout>
 </layout>

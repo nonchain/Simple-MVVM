@@ -5,7 +5,7 @@
     <data>
         <variable
             name="SliderData"
-            type="com.example.jmm.model.ViewPagerModel" />
+            type="com.example.jmm.model.ViewPagerList" />
     </data>
 
     <LinearLayout
