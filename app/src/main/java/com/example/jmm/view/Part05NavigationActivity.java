@@ -18,6 +18,10 @@ public class Part05NavigationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_part05_navigation);
 
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         navController = Navigation.findNavController(Part05NavigationActivity.this, R.id.fragment);
         NavigationUI.setupActionBarWithNavController(Part05NavigationActivity.this, navController); // Then set onSupportNavigateUp
     }

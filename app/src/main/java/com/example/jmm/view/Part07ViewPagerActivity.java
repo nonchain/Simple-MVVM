@@ -30,11 +30,10 @@ public class Part07ViewPagerActivity extends AppCompatActivity {
         binding.setViewPagerData(this);
         binding.setFragmentManager(getSupportFragmentManager());
 
-
     }
 
     @BindingAdapter("SET_VIEWPAGER")
-    public static void setViewPagerData(ViewPager vp)
+    public static void setViewPagerData(ViewPager vp, Part07ViewPagerActivity context)
     {
         List<ViewPagerList> data = new ArrayList<>();
 
