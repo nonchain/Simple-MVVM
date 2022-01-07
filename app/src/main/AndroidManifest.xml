@@ -13,22 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jmm">
         <activity
-            android:name=".view.Part07ViewPagerActivity"
+            android:name=".view.Part08PagingActivity"
             android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".view.Part06MovieNavigationActivity"
+            android:name=".view.Part07ViewPagerActivity"
             android:exported="false">
 
         </activity>
         <activity
-            android:name=".view.Part05NavigationActivity"
+            android:name=".view.Part06MovieNavigationActivity"
             android:exported="false"></activity>
+        <activity
+            android:name=".view.Part05NavigationActivity"
+            android:exported="false" />
         <activity
             android:name=".view.Part04LiveDataActivity"
             android:exported="false" />

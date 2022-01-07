@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ApiStackResponse {
 
-    List<ItemsList> items;
-    boolean has_more;
-    int backoff, quota_max, quota_remaining;
+    public List<ItemsList> items;
+    public boolean has_more;
+    public int backoff, quota_max, quota_remaining;
 }

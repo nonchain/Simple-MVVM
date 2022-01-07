@@ -1,5 +1,7 @@
 package com.example.jmm.api;
 
+import java.io.Serializable;
+
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -17,13 +19,14 @@ public class ApiStack {
 
     }
 
-    public static ApiStack getInstance()
+    public static ApiStack getInstance() // Create new Object from ApiStack using function
     {
         if(apiStack == null) {
             apiStack = new ApiStack();
         }
         return apiStack;
     }
+
 
     public ApiInterFace getApiStack()
     {
